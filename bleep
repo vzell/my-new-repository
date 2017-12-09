@@ -1,0 +1,4 @@
+(let ((branch (magit-get-current-branch)) remote)
+  (while (string= "." (setq remote (magit-get-upstream-remote branch)))
+    (setq branch (magit-get-upstream-branch branch)))
+  remote)
