@@ -1,4 +1,4 @@
-This is a simple README for my new project!
+This is a README for my new project!
 
 Remember,
 
